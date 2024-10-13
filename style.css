@@ -1,0 +1,25 @@
+.dropdown-menu {
+    animation: 0.5s slideup;
+  }
+  
+  @keyframes slideup {
+    from {
+      transform: translateY(10%);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+  body{
+    background-color: rgb(241, 229, 213);
+  }
+  
+  .cr-image{
+    height: 300px;
+    object-fit: cover;
+  }
+  #c-grid{
+    margin-top: 20px;
+  }
+ 
